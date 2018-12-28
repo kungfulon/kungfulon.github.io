@@ -1,0 +1,23 @@
+{
+	"title": "SVATTT 2018 - Qualifiers - TVm",
+	"url": "https://raw.githubusercontent.com/kungfulon/svattt2018-writeups/master/quals/re/tvm/readme.md",
+	"tags": ["ctf", "re"],
+	"attachments": [
+		{
+			"title": "asm.txt",
+			"url": "https://raw.githubusercontent.com/kungfulon/svattt2018-writeups/master/quals/re/tvm/asm.txt"
+		},
+		{
+			"title": "bytecode.bin",
+			"url": "https://raw.githubusercontent.com/kungfulon/svattt2018-writeups/master/quals/re/tvm/bytecode.bin"
+		},
+		{
+			"title": "decrypt.cpp",
+			"url": "https://raw.githubusercontent.com/kungfulon/svattt2018-writeups/master/quals/re/tvm/decrypt.cpp"
+		},
+		{
+			"title": "disassembler.py",
+			"url": "https://raw.githubusercontent.com/kungfulon/svattt2018-writeups/master/quals/re/tvm/disassembler.py"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"title": "MatesCTF Season 3 - Round 1 - Guess and win (awesome)",
+	"url": "https://raw.githubusercontent.com/kungfulon/matesctf-s3/master/round1/re/crackme/readme.md",
+	"tags": ["ctf", "re"],
+	"attachments": [
+		{
+			"title": "crackme.py",
+			"url": "https://raw.githubusercontent.com/kungfulon/matesctf-s3/master/round1/re/crackme/crackme.py"
+		},
+		{
+			"title": "crackme_solve.cpp",
+			"url": "https://raw.githubusercontent.com/kungfulon/matesctf-s3/master/round1/re/crackme/crackme_solve.cpp"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"title": "MatesCTF Season 3 - Round 2 - MiniFactory",
+	"url": "https://raw.githubusercontent.com/kungfulon/matesctf-s3/master/round2/re/MiniFactory/readme.md",
+	"tags": ["ctf", "re"],
+	"attachments": [
+		{
+			"title": "MiniFactory.cpp",
+			"url": "https://raw.githubusercontent.com/kungfulon/matesctf-s3/master/round2/re/MiniFactory/MiniFactory.cpp"
+		},
+		{
+			"title": "Solve.cpp",
+			"url": "https://raw.githubusercontent.com/kungfulon/matesctf-s3/master/round2/re/MiniFactory/Solve.cpp"
+		}
+	]
+}

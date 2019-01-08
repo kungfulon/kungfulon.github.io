@@ -21,7 +21,7 @@ Tiếp tục đến phần quay lotto (`lott` file `src.py`). Ta lại rút ra v
 - Sau khi pass `check_bet`, kiểm tra `number`, nếu trùng với `jackpot` thì người chơi thắng, không thì người chơi thua (tăng / giảm `money` một lượng `int(bet)`)
 
 Từ những nhận xét trên, ta thấy rằng: Muốn bet được số tiền lớn hơn số tiền hiện tại đang có thì phải pass được `check_bet`, đồng thời `int(bet)` phải ra được một số lớn.
-Đọc changelog python 3.6, hàm `int()` chấp nhận dấu `_` trong string để nhìn số dễ dàng hơn và nó sẽ bị ignore khi convert sang `int` => Có thể dùng để lừa phần check length của `check_bet`.
+Đọc changelog python 3.6, hàm `int()` chấp nhận dấu `_` trong string để nhìn số dễ dàng hơn và nó sẽ bị ignore khi convert sang `int` => có thể dùng để lừa phần check length của `check_bet`.
 Vấn đề là lúc tạo ticket, ta chỉ truyền vào được số. Nhưng ticket không được lưu trên server => ta có thể fake ticket.
 Như đã nói ở trên, ticket được mã hóa AES-CBC với blocksize 16. Quá trình decrypt diễn ra như sau:
 

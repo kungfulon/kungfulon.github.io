@@ -1,0 +1,15 @@
+{
+	"title": "TetCTF - TSULOTT2",
+	"url": "/assets/articles/tetctf/tsulott2/readme.md",
+	"tags": ["ctf", "web"],
+	"attachments": [
+		{
+			"title": "attack.py",
+			"url": "/assets/articles/tetctf/tsulott2/attack.py"
+		},
+		{
+			"title": "src.py",
+			"url": "/assets/articles/tetctf/tsulott2/src.py"
+		}
+	]
+}

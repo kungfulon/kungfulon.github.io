@@ -15,6 +15,14 @@
 		{
 			"title": "SVATTT 2018 - Final - Lotus (scripts only)",
 			"tags": ["ctf", "re"]
+		},
+		{
+			"title": "TetCTF - TSULOTT2",
+			"tags": ["ctf", "web"]
+		},
+		{
+			"title": "TetCTF - Baby Sandbox",
+			"tags": ["ctf", "pwn"]
 		}
 	]
 }

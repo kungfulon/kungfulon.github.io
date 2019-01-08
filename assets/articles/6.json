@@ -1,0 +1,11 @@
+{
+	"title": "TetCTF - Baby Sandbox",
+	"url": "/assets/articles/tetctf/sandbox/readme.md",
+	"tags": ["ctf", "web"],
+	"attachments": [
+		{
+			"title": "poc.py",
+			"url": "/assets/articles/tetctf/sandbox/poc.py"
+		}
+	]
+}

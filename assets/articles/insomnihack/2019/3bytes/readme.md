@@ -18,4 +18,4 @@ Those `__rtld` macros are defined in [`glibc/sysdeps/generic/libc-lock.h`](https
 Since `libc` will be mapped above `ld` in the virtual space, and the offset between them is constant for each environment, we can calculate the address easily.
 We also have `Dockerfile` of this challenge, so build it and calculate the offset between `libc` and `ld`.
 Finally, patch one of those pointer to `one_gadget` and boom, we'll get a shell.
-We only need 3 bytes to do the patching, since the offset between `libc` and `ld` is relatively small (on the docker it's `0x310000`)
+We only need 3 bytes to do the patching, since the offset between `libc` and `ld` is relatively small (on the docker it's `0x3f1000`)

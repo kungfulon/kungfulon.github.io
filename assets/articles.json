@@ -23,6 +23,10 @@
 		{
 			"title": "TetCTF - Baby Sandbox",
 			"tags": ["ctf", "pwn"]
+		},
+		{
+			"title": "Insomni'Hack 2019 CTF - 3bytes",
+			"tags": ["ctf", "pwn"]
 		}
 	]
 }

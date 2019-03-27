@@ -7,7 +7,7 @@ After that I started auditing glibc code. The program call `exit(1337)`, so let'
 There's a list of exit function (`__exit_funcs`), but `PTR_DEMANGLE` prevented me from patching it easily.
 After some hopeless debugging, I saw that `_dl_fini` is an exit function. Looking through its definition in [`glibc/elf/dl-fini.c`](https://code.woboq.org/userspace/glibc/elf/dl-fini.c.html), I saw two interesting call:
 
-```
+``` c
 __rtld_lock_lock_recursive (GL(dl_load_lock));
 // ...
 __rtld_lock_unlock_recursive (GL(dl_load_lock));

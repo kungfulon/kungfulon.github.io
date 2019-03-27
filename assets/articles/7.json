@@ -1,15 +1,15 @@
 {
 	"title": "Insomni'Hack 2019 CTF - 3bytes",
 	"url": "/assets/articles/insomnihack/2019/3bytes/readme.md",
-	"tags": ["ctf", "web"],
+	"tags": ["ctf", "pwn"],
 	"attachments": [
 		{
 			"title": "exploit.py",
 			"url": "/assets/articles/insomnihack/2019/3bytes/exploit.py"
 		},
-    {
-      "title": "3bytes_8845fd5db98fc15a679ce22b7a4338aa-8c6afdfcc3690baa8f92cc36f8d20ab1bb51d51b2c19bd306c90e79da53d5e5a.tar.bz2",
-      "url": "/assets/articles/insomnihack/2019/3bytes/3bytes_8845fd5db98fc15a679ce22b7a4338aa-8c6afdfcc3690baa8f92cc36f8d20ab1bb51d51b2c19bd306c90e79da53d5e5a.tar.bz2"
-    }
+		{
+			"title": "3bytes_8845fd5db98fc15a679ce22b7a4338aa-8c6afdfcc3690baa8f92cc36f8d20ab1bb51d51b2c19bd306c90e79da53d5e5a.tar.bz2",
+			"url": "/assets/articles/insomnihack/2019/3bytes/3bytes_8845fd5db98fc15a679ce22b7a4338aa-8c6afdfcc3690baa8f92cc36f8d20ab1bb51d51b2c19bd306c90e79da53d5e5a.tar.bz2"
+		}
 	]
 }

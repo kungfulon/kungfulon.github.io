@@ -27,6 +27,10 @@
 		{
 			"title": "Insomni'Hack 2019 CTF - 3bytes",
 			"tags": ["ctf", "pwn"]
+		},
+		{
+			"title": "SVATTT 2019 Final - Three-O-Three",
+			"tags": ["ctf", "pwn"]
 		}
 	]
 }

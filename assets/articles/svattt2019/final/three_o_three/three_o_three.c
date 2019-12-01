@@ -13,9 +13,9 @@ int main()
   setvbuf(stdout, 0LL, 2, 0LL);
   
   write(1, "Size:", 5);
-  scanf("%lu", size);
+  scanf("%lu", &size);
   
-  magic = (unsigned long *)malloc(size[0]);
+  magic = (unsigned long *)malloc(size);
   
   if (magic)
   {

@@ -21,7 +21,7 @@ int main()
   {
     printf("Magic:%p\n", magic);
     
-    for (i = 0; i <= 2; ++i)
+    for (i = 0; i < 3; ++i)
     {
       write(1, "offset:", 7uLL);
       scanf("%lu", &offset);

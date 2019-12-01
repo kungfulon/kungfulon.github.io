@@ -1,0 +1,19 @@
+{
+	"title": "SVATTT 2019 Final - Three-O-Three",
+	"url": "/assets/articles/svattt2019/final/three_o_three/readme.md",
+	"tags": ["ctf", "pwn"],
+	"attachments": [
+		{
+			"title": "exploit.py",
+			"url": "/assets/articles/svattt2019/final/three_o_three/exploit.py"
+		},
+		{
+			"title": "three_o_three.c",
+			"url": "/assets/articles/svattt2019/final/three_o_three/three_o_three.c"
+		}
+    {
+			"title": "three_o_three",
+			"url": "/assets/articles/svattt2019/final/three_o_three/three_o_three"
+		}
+	]
+}

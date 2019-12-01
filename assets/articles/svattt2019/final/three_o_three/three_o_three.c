@@ -23,9 +23,9 @@ int main()
     
     for (i = 0; i < 3; ++i)
     {
-      write(1, "offset:", 7uLL);
+      write(1, "offset:", 7);
       scanf("%lu", &offset);
-      write(1, "value:", 6uLL);
+      write(1, "value:", 6);
       scanf("%lu", &value);
       magic[offset] = value;
     }

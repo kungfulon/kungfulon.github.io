@@ -7,7 +7,7 @@ After reading the [writeup by Syed Faraz Abrar](https://syedfarazabrar.com/2019-
 - Overwrite `__malloc_hook` with `free` and overwrite `__free_hook` with `one_gadget` - FAIL
 - Overwrite `__free_hook` with `system` but there are nothing we can run with numbers and `+` and `-` - FAIL
 
-Then we remembered a challenge in InsomniHack 2019 that I have solved before: [3bytes](https://nyancat0131.vpwn.io/article/7).
+Then we remembered a challenge in InsomniHack 2019 that I have solved before: [3bytes](/article/7).
 At first, we only overwrote `__rtld_lock_unlock_recursive` with `one_gadget`, but since the program call `_exit` and not `exit`, the exit routine was not executed.
 Then we decided to overwrite `__malloc_hook` with `exit` and `__rtld_lock_unlock_recursive` with `one_gadget`.
 This approach worked perfectly.
